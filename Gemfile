@@ -3,12 +3,13 @@ ruby '1.9.3'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.4'
-gem 'bootstrap-sass', '2.1'
-gem 'bcrypt-ruby', '3.0.1'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', '3.1.2'
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
-gem 'sprockets', '2.11.0'
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
